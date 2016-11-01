@@ -321,22 +321,98 @@
       	  [18, 'String', 3.14, 18, 'String', 3.14]</pre>
     </div>
     
+    <div class="step slide" data-x="-3500" data-y="2000" data-z="-6000" data-rotate="90" data-scale="1">
+        <p><b>Listas</b> <br/></br>
+        <span class="highlight">Operações específicas de Listas</span>
+      	  <pre class="brush: py;">
+      	  >>> l = [18, 'String', 3.14] 
+      	  >>> l.append(199)
+      	  >>> l
+      	  [18, 'String', 3.14, 199]
+      	  >>> l.pop()
+      	  199
+      	  >>> l
+      	  [18, 'String', 3.14]
+      	  >>> l.pop(0)
+      	  18
+      	  >>> l
+      	  ['String', 3.14]</pre>
+    </div>
+    
+    <div class="step slide" data-x="-3500" data-y="2000" data-z="-8000" data-rotate="90" data-scale="1">
+        <p><b>Listas</b> <br/></br>
+        <span class="highlightyellow">Operações específicas de Listas</span>
+      	  <pre class="brush: py;">
+      	  >>> l = [6,5,7,4,8,3,9,1,0]
+      	  >>> l.sort()
+      	  >>> l
+      	  [0, 1, 3, 4, 5, 6, 7, 8, 9]
+      	  >>> l.reverse()
+      	  >>> l
+      	  [9, 8, 7, 6, 5, 4, 3, 1, 0]</pre>
+    </div>
+    
+    <div class="step slide" data-x="-3500" data-y="2000" data-z="-10000" data-rotate="90" data-scale="1">
+        <p><b>List Comprehensions</b> <br/></br>
+      	  <pre class="brush: py;">
+      	  >>> l = [6,5,7,4,8,3,9,1,0]
+      	  >>> l.sort()
+      	  >>> l
+      	  [0, 1, 3, 4, 5, 6, 7, 8, 9]
+      	  >>> l.reverse()
+      	  >>> l
+      	  [9, 8, 7, 6, 5, 4, 3, 1, 0]</pre>
+    </div>
+    
+    <div class="step slide" data-x="-3500" data-y="2000" data-z="-12000" data-rotate="90" data-scale="1">
+        <p><b>List Comprehensions</b> <br/></br>
+      	  <pre class="brush: py;">
+      	  >>> l = [0,1,2,3,4,5]
+      	  
+      	  >>> [x ** 2 for x in l]
+      	  [0, 1, 4, 9, 16, 25]
+
+      	  >>> [x for x in l if x % 2 == 0]
+      	  [0, 2, 4]
+
+      	  >>> [x for x in l if x % 2 == 1]
+      	  [1, 3, 5]</pre>
+    </div>
+    
+	<div class="step slide" data-x="-3500" data-y="2000" data-z="-12000" data-rotate="90" data-scale="1">
+        <p><b>Bult-in Functions</b> <br/></br>
+      	  <pre class="brush: py;">
+      	  >>> min([1,2,3])
+      	  1
+      	  >>> max([1,2,3])
+      	  3
+      	  >>> sum([1,2,3])
+      	  6
+      	  >>> list(range(10))
+      	  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      	  >>> list(range(5,11))
+      	  [5, 6, 7, 8, 9, 10]</pre>
+    </div>
+    
     <div class="step" data-x="-3500" data-y="3900" data-z="-4000" data-rotate="90" data-scale="3">
-        <p><b>Conjuntos</b> <br/>
+        <p><b>Dicionários</b> <br/>
     </div>
     
     <div class="step slide" data-x="-3500" data-y="3900" data-z="-4000" data-rotate="90" data-scale="1">
-        <p><b>Conjuntos</b> <br/>
+        <p><b>Dicionários</b> <br/>
     </div>
     
     <div class="step" data-x="-4500" data-y="2900" data-z="-4000" data-rotate="90" data-scale="3">
-        <p><b>Dicionários</b> <br/>
+        <p><b>Tuplas</b> <br/>
     </div>
     
     <div class="step slide" data-x="-4500" data-y="3000" data-z="-4000" data-rotate="90" data-scale="1">
-        <p><b>Dicionários</b> <br/>
+        <p><b>Tuplas</b> <br/>
     </div>
 
+	<!-- arquivos -->
+	<!-- conjuntos -->
+	
     <!--
         
         And now it gets really exciting! We move into third dimension!

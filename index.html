@@ -73,26 +73,18 @@
     <meta name="author" content="juliano" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-
-    <!--
-        
-        Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
-        presentation to work.
-        
-        This style below contains styles only for demo presentation. Browse it to see how impress.js
-        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
-        you to use them directly in your presentation.
-        
-        Be creative, build your own. We don't really want all impress.js presentations to look the same,
-        do we?
-        
-        When creating your own presentation get rid of this file. Start from scratch, it's fun!
-        
-    -->
-    <link href="css/impress-demo.css" rel="stylesheet" />
     
+   <script type="text/javascript" src="hl/scripts/shCore.js"></script>
+	<script type="text/javascript" src="hl/scripts/shBrushPython.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+	
+    <link href="css/impress-demo.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    
+	<link type="text/css" rel="stylesheet" href="hl/styles/shCoreDefault.css"/>
+	
+	
 </head>
 
 <!--
@@ -174,43 +166,38 @@
     
     <div class="step slide" data-x="-0" data-y="-1500" data-rotate="90">
     	  <h1>Por que usar Python?</h1>
-    	  <span class="highlight" style="display:inline-block;margin-top:30px">Qualidade de software</span></br>
-    	  <span class="highlight" style="display:inline-block;margin-top:15px;margin-left:80px">Legível</span>
-    	  <span class="highlight" style="display:inline-block;margin-top:15px;">Reutilizável</span>
-    	  <span class="highlight" style="display:inline-block;margin-top:15px;">Fácil manutenção</span>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px">Produtividade</span></br>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;margin-left:80px">Código menor</span>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;">Programação mais rápida</span>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;margin-left:80px">Menos código para manutenção</span></br>
-        <span class="highlight" style="display:inline-block;margin-top:15px;">Portabilidade</span></br>
-        <span class="highlight" style="display:inline-block;margin-top:15px;margin-left: 80px;">Disponível para maioria das plataformas</span></br>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px">Bibliotecas</span></br>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;margin-left:80px">web</span>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;">jogos</span>
-        <span class="highlightyellow" style="display:inline-block;margin-top:15px;">programação numérica</span></br>
-        <span class="highlight" style="display:inline-block;margin-top:15px">Prazer</span></br>
-        <span class="highlight" style="display:inline-block;margin-top:15px">Fácil de aprender e usar</span>
-        <span class="highlight" style="display:inline-block;margin-top:15px">Programar é mais agradável</span>
+    	  <span class="highlight" style="display:inline-block;margin-top:30px">Qualidade de software:</span></br>
+    	  <span class="highlight" style="display:inline-block;margin-top:5px;margin-left:80px">Legível</span>
+    	  <span class="highlight" style="display:inline-block;margin-top:5px;">Reutilizável</span>
+    	  <span class="highlight" style="display:inline-block;margin-top:5px;">Fácil manutenção</span>
+        <span class="highlightyellow" style="display:inline-block;margin-top:15px">Produtividade:</span></br>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;margin-left:80px">Código menor</span>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;">Programação mais rápida</span>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;margin-left:80px">Menos código para manutenção</span></br>
+        <span class="highlight" style="display:inline-block;margin-top:15px;">Portabilidade:</span></br>
+        <span class="highlight" style="display:inline-block;margin-top:5px;margin-left: 80px;">Disponível para maioria das plataformas</span></br>
+        <span class="highlightyellow" style="display:inline-block;margin-top:15px">Bibliotecas:</span></br>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;margin-left:80px">web</span>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;">jogos</span>
+        <span class="highlightyellow" style="display:inline-block;margin-top:5px;">programação numérica</span></br>
+        <span class="highlight" style="display:inline-block;margin-top:15px">Prazer:</span></br>
+        <span class="highlight" style="display:inline-block;margin-top:5px">Fácil de aprender e usar</span>
+        <span class="highlight" style="display:inline-block;margin-top:5px">Programar é mais agradável</span>
     </div>
     
     <div id="naotaorapido" class="step slide" data-x="1000" data-y="-1500" data-rotate="180">
     	  <h1>Python é uma linguagem de <i>scripting</i>?</h1>
             <span class="highlight" style="display:inline-block;margin-top:30px">Multi-propósito</span></br>
-            <span class="highlightyellow" style="display:inline-block;margin-top:15px">Multi-paradigma</span></br>
+            <span class="highlightyellow" style="display:inline-block;margin-top:15px">Multi-paradigma:</span></br>
             <span class="highlight" style="display:inline-block;margin-top:15px;margin-left:80px">Procedural</span>
             <span class="highlightyellow" style="display:inline-block;margin-top:15px">Funcional</span>
             <span class="highlight" style="display:inline-block;margin-top:15px">Orientada a objetos</span></br>
 				<span class="highlightyellow coloring" style="display:inline-block;margin-top:15px">Tempo de execução não tão rápido</span>     
     </div>
     
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+    <div id="big" class="step" data-x="3000" data-y="2100" data-rotate="0" data-scale="6">
         <p><b>quem</b> <span class="thoughts">usa python?</span></p>
-    </div>
-    
-    <!--<div class="step slide" data-x="2000" data-y="-1500">
-    	  <h1>Quem usa Python?</h1></br>
-    	  <img src="imgs/google.jpg" alt=""></br>
-    </div>-->
+    </div> 
     
     <div class="step" data-x="1700" data-y="2325" data-z="-1400" data-rotate="300" data-scale="1">
     	  <img src="imgs/google.png" alt=""></br>
@@ -284,15 +271,42 @@
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
         <span class="try">iniciando uma sessão</span>
         <h1>interativa</h1>
-        <span>testar, experimentar</span>
+        <span class="highlightyellow">testar, experimentar</span>
     </div>
     
-    <div class="step slide" data-x="-1000" data-y="-0" data-rotate="0">
-    	  <h1>Olá Mundo (Interativo)</h1>  
+    <div class="step slide" data-x="1500" data-y="-650" data-rotate="0">
+    	  <h1>Olá, Mundo! (Interativo)</h1>
+    	  <pre class="brush: py;">
+			>>>print("Hello World!")
+			Hello World!</pre>
+			
+			<pre class="brush: py;"> 
+			>>> nome = input("Digite seu nome: ")
+			Digite seu nome: Juliano
+			>>> print ("Olá, "+nome)
+			Olá, Juliano
+			>>> nome = 1
+			>>> nome = nome + 1
+			>>> print(nome)
+			2</pre>
+			
+			</br><span class="highlight">Tipagem dinâmica</span>  
     </div>
     
-    <div class="step slide" data-x="-0" data-y="-0" data-rotate="90">
-    	  <h1>Olá Mundo (Script)</h1>  
+    <div class="step slide" data-x="2320" data-y="-650" data-rotate="90">
+    	  <h1>Olá Mundo (Script)</h1></br>
+    	  <span class="highlightyellow">olamundo.py</span>
+			<pre class="brush: py;"> 
+			nome = input("Digite seu nome: ")
+			print ("Olá, " + nome)
+			nome = 1
+			nome = nome + 1
+			print(nome)</pre>  
+			<span class="highlight">python3 olamundo.py</span>
+			</br>
+			</br>Digite seu nome: Juliano
+         </br>Olá, Juliano
+         </br>2
     </div>
 
     <!--
@@ -472,7 +486,7 @@ if ("ontouchstart" in document.documentElement) {
     because it should be done when the whole document is ready.
     Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
     
--->
+-->	  
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
 

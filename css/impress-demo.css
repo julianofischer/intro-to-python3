@@ -735,16 +735,30 @@ img {
 	background-color: rgb(55, 113, 262);
 	border-radius: 5px;
 	padding-left: 10px;
-   padding-right: 10px;
-   color: white;
+        padding-right: 10px;
+        color: white;
 }
 
 .highlightyellow {
 	background-color: rgb(255, 201, 56);
 	border-radius: 5px;
 	padding-left: 10px;
-   padding-right: 10px;
-   color: rgb(55, 113, 262);;
+        padding-right: 10px;
+        color: rgb(55, 113, 262);;
+}
+
+.lihighlight {
+        background-color: rgb(55, 113, 262);
+        color: black;
+        margin-top:5px;
+	font-size:2.0em;
+}
+
+.lihighlightyellow {
+        background-color: rgb(255, 201, 56);
+        color: rgb(55, 113, 262);;
+        margin-top:5px;
+	font-size:2.0em;
 }
 
 .displayblock {
